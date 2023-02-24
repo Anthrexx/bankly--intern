@@ -1,0 +1,20 @@
+ children: [Padding(padding: EdgeInsets.all(3),child: TabBar(
+                     controller: tabController,
+                     unselectedLabelColor: Colors.white,
+                     labelColor: Colors.greenAccent,
+                     indicatorColor: Colors.white,
+                     indicatorWeight: 2,
+                     indicator: BoxDecoration(
+                       borderRadius:BorderRadius.circular(20),
+                       color: Colors.white,
+                     ),
+                     tabs: [
+                       Tab(
+                         text: 'Request',
+
+                       ),
+                       Tab(
+                         text: 'History',
+                       )
+                     ],
+                   ),)],
